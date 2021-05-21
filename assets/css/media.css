@@ -84,7 +84,6 @@
 
   #title h1 {
     font-size: 62px;
-    line-height: 10vh;
   }
   #title h2 {
     font-size: 36px;
@@ -107,6 +106,15 @@
   }
 }
 @media (max-width: 768px) {
+  body {
+    position: relative;
+    overflow: auto;
+  }
+
+  .bg {
+    height: 60%;
+  }
+
   .container {
     width: 90%;
     padding: 0;
@@ -119,56 +127,72 @@
     display: none;
   }
 
+  #title h1 {
+    text-align: left;
+    line-height: 1.2;
+  }
+  #title h2 {
+    text-align: left;
+  }
+
+  #mobile {
+    position: static;
+  }
+  #mobile .mobile__content {
+    padding-top: 100px;
+  }
+  #mobile .mobile__wrapper {
+    position: relative;
+  }
   #mobile .mobile-qr {
     display: none;
   }
   #mobile .mobile__phone {
-    padding-top: 60px;
+    position: relative;
+    max-width: 60%;
+    height: auto;
   }
   #mobile .mobile-sticker {
-    width: 52vh;
+    width: 85%;
   }
   #mobile .mobile-sticker__migel {
-    height: 14vh;
-    top: 62px;
+    height: 18vh;
+    top: 32px;
   }
   #mobile .mobile-sticker__mta {
-    height: 14vh;
-    top: 56px;
+    height: 18vh;
+    top: 26px;
   }
   #mobile .mobile-sticker__quppy {
-    height: 16vh;
-    left: 20px;
-    top: 21vh;
+    height: 20vh;
+    top: 180px;
   }
   #mobile .mobile-sticker__dance {
-    height: 20vh;
-    right: 14px;
-    top: 20vh;
+    height: 24vh;
+    top: 180px;
   }
   #mobile .mobile-sticker__dab {
-    left: -10px;
-    top: 38vh;
-    height: 14vh;
+    display: none;
   }
   #mobile .mobile-sticker__pizza {
-    right: -22px;
-    top: 38vh;
-    height: 14vh;
+    display: none;
   }
   #mobile .mobile-download {
-    flex-direction: unset;
-    bottom: 30px;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    flex-direction: row;
     width: 100%;
   }
   #mobile .mobile-download a {
-    margin: 0 auto;
-    width: 25%;
+    flex-basis: 50%;
     display: flex;
     justify-content: center;
+    margin: 0 10px;
   }
   #mobile .mobile-download a img {
-    width: 18vh;
+    width: 100%;
+    max-width: 200px;
   }
   #mobile .mobile-download a:first-child {
     margin-bottom: 0;
@@ -176,6 +200,7 @@
 
   #social-mobile {
     display: block;
+    margin: 30px 0;
   }
   #social-mobile .container {
     display: flex;
@@ -185,21 +210,35 @@
     margin: 0 13px;
   }
 
+  #footer {
+    bottom: 20px;
+  }
   #footer .footer__link {
     display: none;
   }
   #footer .footer__copyright {
     width: 100%;
+    font-size: 14px;
   }
 }
-@media (max-width: 690px) {
-  #title h1 {
-    font-size: 40px;
-    line-height: 8vh;
+@media (max-width: 600px) {
+  #mobile .mobile-sticker__migel {
+    height: 100px;
+    top: 20px;
   }
-  #title h2 {
-    font-size: 24px;
-    line-height: 9vh;
+  #mobile .mobile-sticker__mta {
+    height: 100px;
+    top: 20px;
+  }
+  #mobile .mobile-sticker__quppy {
+    height: 120px;
+    top: 120px;
+    left: 20px;
+  }
+  #mobile .mobile-sticker__dance {
+    height: 140px;
+    top: 120px;
+    right: 20px;
   }
 }
 @media (max-width: 440px) {
@@ -212,11 +251,10 @@
   }
 
   #title h1 {
-    font-size: 28px;
-    line-height: 6vh;
+    font-size: 50px;
   }
   #title h2 {
-    font-size: 16px;
+    font-size: 38px;
   }
 
   #social-mobile {
@@ -225,5 +263,9 @@
 
   #mobile .mobile-sticker {
     width: 48vh;
+  }
+
+  #footer .footer__copyright {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=media.css.map */

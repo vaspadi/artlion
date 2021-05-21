@@ -131,7 +131,7 @@
     #title {
         h1 {
             font-size: 62px;
-            line-height: 10vh;
+            // line-height: 10vh;
         }
 
         h2 {
@@ -174,6 +174,15 @@
 }
 
 @media(max-width: 768px) {
+    body {
+      position: relative;
+      overflow: auto;
+    }
+
+    .bg {
+      height: 60%;
+    }
+
     .container {
         width: 90%;
         padding: 0;
@@ -193,68 +202,90 @@
         }
     }
 
+    #title {
+      h1 {
+        text-align: left;
+        line-height: 1.2;
+      }
+
+      h2 {
+        text-align: left;
+      }
+    }
+
     #mobile {
+        position: static;
+
         .mobile {
+            &__content {
+              padding-top: 100px;
+            }
+
+            &__wrapper {
+              position: relative;
+            }
+
             &-qr {
                 display: none;
             }
 
             &__phone {
-                padding-top: 60px;
+                position: relative;
+                max-width: 60%;
+                height: auto;
             }
 
             &-sticker {
-                width: 52vh;
+                width: 85%;
 
                 &__migel {
-                    height: 14vh;
-                    top: 62px;
+                    height: 18vh;
+                    top: 32px;
                 }
 
                 &__mta {
-                    height: 14vh;
-                    top: 56px;
+                    height: 18vh;
+                    top: 26px;
                 }
 
                 &__quppy {
-                    height: 16vh;
-                    left: 20px;
-                    top: 21vh;
+                    height: 20vh;
+                    // left: 20px;
+                    top: 180px;
                 }
 
                 &__dance {
-                    height: 20vh;
-                    right: 14px;
-                    top: 20vh;
+                    height: 24vh;
+                    // right: 14px;
+                    top: 180px;
 
                 }
 
                 &__dab {
-                    left: -10px;
-                    top: 38vh;
-                    height: 14vh;
+                  display: none;
                 }
 
                 &__pizza {
-                    right: -22px;
-                    top: 38vh;
-                    height: 14vh;
+                  display: none;
                 }
             }
 
             &-download {
-                flex-direction: unset;
-                bottom: 30px;
+                position: absolute;
+                top: 0;
+                bottom: auto;
+                flex-direction: row;
                 width: 100%;
 
                 a {
-                    margin: 0 auto;
-                    width: 25%;
+                    flex-basis: 50%;
                     display: flex;
                     justify-content: center;
+                    margin: 0 10px;
 
                     img {
-                        width: 18vh;
+                        width: 100%;
+                        max-width: 200px;
                     }
 
                 }
@@ -270,6 +301,7 @@
 
     #social-mobile {
         display: block;
+        margin: 30px 0;
 
         .container {
             display: flex;
@@ -282,6 +314,8 @@
     }
 
     #footer {
+        bottom: 20px;
+
         .footer {
             &__link {
                 display: none;
@@ -289,21 +323,42 @@
 
             &__copyright {
                 width: 100%;
+                font-size: 14px;
+                
             }
         }
     }
 }
 
-@media(max-width: 690px) {
-    #title {
-        h1 {
-            font-size: 40px;
-            line-height: 8vh;
-        }
+@media(max-width: 600px) {
+    #mobile {
 
-        h2 {
-            font-size: 24px;
-            line-height: 9vh;
+        .mobile {
+
+            &-sticker {
+                &__migel {
+                    height: 100px;
+                    top: 20px;
+                }
+                
+                &__mta {
+                    height: 100px;
+                    top: 20px;
+                }
+                
+                &__quppy {
+                    height: 120px;
+                    top: 120px;
+                    left: 20px;
+                }
+                
+                &__dance {
+                    height: 140px;
+                    top: 120px;
+                    right: 20px;
+
+                }
+            }
         }
     }
 }
@@ -323,12 +378,12 @@
 
     #title {
         h1 {
-            font-size: 28px;
-            line-height: 6vh;
+            font-size: 50px;
+            // line-height: 6vh;
         }
 
         h2 {
-            font-size: 16px;
+            font-size: 38px;
 
         }
     }
@@ -343,5 +398,11 @@
                 width: 48vh;
             }
         }
+    }
+
+    #footer {
+      .footer__copyright {
+        font-size: 10px;
+      }
     }
 }

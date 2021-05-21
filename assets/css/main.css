@@ -9,9 +9,12 @@ body {
 
 .bg {
   position: absolute;
+  left: 50%;
   width: 100%;
+  max-width: 1360px;
   height: 100%;
   z-index: -1;
+  transform: translateX(-50%);
 }
 .bg__blur {
   width: 100%;
@@ -143,7 +146,6 @@ body {
 #title h1 {
   font-family: "HelveticaNeueBoldCondensed";
   font-size: 12vh;
-  line-height: 14vh;
   color: #FFFFFF;
   text-transform: uppercase;
   margin: 0;
@@ -152,7 +154,6 @@ body {
 #title h2 {
   font-family: "HelveticaNeueBoldCondensed";
   font-size: 7vh;
-  line-height: 8vh;
   color: #FFFFFF;
   text-transform: uppercase;
   margin: 0;
@@ -176,7 +177,7 @@ body {
   justify-content: center;
 }
 #mobile .mobile__phone {
-  height: 61.9vh;
+  height: 64vh;
   padding-top: 20px;
   bottom: 0px;
 }
@@ -271,7 +272,7 @@ body {
 }
 #mobile .mobile-sticker__migel {
   position: absolute;
-  height: 18vh;
+  height: 20vh;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-delay: 1200ms;
@@ -291,7 +292,7 @@ body {
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms;
   transition: 1s;
-  height: 18vh;
+  height: 20vh;
   top: 2px;
 }
 #mobile .mobile-sticker__mta:hover {
@@ -305,7 +306,7 @@ body {
   -webkit-animation-delay: 1800ms;
           animation-delay: 1800ms;
   transition: 1s;
-  height: 20vh;
+  height: 22vh;
   left: 46px;
   top: 18vh;
 }
@@ -320,7 +321,7 @@ body {
   -webkit-animation-delay: 2100ms;
           animation-delay: 2100ms;
   transition: 1s;
-  height: 24vh;
+  height: 26vh;
   right: 38px;
   top: 15vh;
 }
@@ -337,7 +338,7 @@ body {
   transition: 1s;
   left: -10px;
   top: 39vh;
-  height: 18vh;
+  height: 20vh;
 }
 #mobile .mobile-sticker__dab:hover {
   transform: translateX(-20px);
@@ -352,7 +353,7 @@ body {
   transition: 1s;
   right: -22px;
   top: 38vh;
-  height: 18vh;
+  height: 20vh;
 }
 #mobile .mobile-sticker__pizza:hover {
   transform: translateX(20px);
