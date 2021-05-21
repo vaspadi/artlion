@@ -7,6 +7,12 @@ body {
   overflow: hidden;
 }
 
+.content-container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .bg {
   position: absolute;
   width: 100%;
