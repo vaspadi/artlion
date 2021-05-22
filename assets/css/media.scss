@@ -311,8 +311,9 @@
 
             &__phone {
                 position: relative;
-                max-width: 60%;
-                height: auto;
+                width: 70%;
+                height: 100%;
+                // width: 100%;
             }
 
             &-sticker {
@@ -355,10 +356,11 @@
                 top: 0;
                 bottom: auto;
                 flex-direction: row;
+                justify-content: space-around;
                 width: 100%;
 
                 a {
-                    flex-basis: 50%;
+                    // flex-basis: 50%;
                     display: flex;
                     justify-content: center;
                     margin: 0 10px;
@@ -403,7 +405,7 @@
 
             &__copyright {
                 width: 100%;
-                font-size: 14px;
+                font-size: 10px;
                 
             }
         }

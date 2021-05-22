@@ -147,8 +147,8 @@
   }
   #mobile .mobile__phone {
     position: relative;
-    max-width: 60%;
-    height: auto;
+    width: 70%;
+    height: 100%;
   }
   #mobile .mobile-sticker {
     width: 85%;
@@ -180,10 +180,10 @@
     top: 0;
     bottom: auto;
     flex-direction: row;
+    justify-content: space-around;
     width: 100%;
   }
   #mobile .mobile-download a {
-    flex-basis: 50%;
     display: flex;
     justify-content: center;
     margin: 0 10px;
@@ -216,7 +216,7 @@
   }
   #footer .footer__copyright {
     width: 100%;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 @media (max-width: 820px) and (orientation: landscape) {

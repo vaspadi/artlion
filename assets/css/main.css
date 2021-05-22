@@ -180,6 +180,7 @@ body {
   height: 64vh;
   padding-top: 20px;
   bottom: 0px;
+  transition: none;
 }
 #mobile .mobile-sticker {
   position: absolute;
@@ -279,9 +280,10 @@ body {
           animation-delay: 1200ms;
   transition: 1s;
   top: 12px;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__migel:hover {
-  transform: translateX(-20px);
+  transform: translate3d(-20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-sticker__mta {
@@ -294,9 +296,10 @@ body {
   transition: 1s;
   height: 20vh;
   top: 2px;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__mta:hover {
-  transform: translateX(20px);
+  transform: translate3d(20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-sticker__quppy {
@@ -309,9 +312,10 @@ body {
   height: 22vh;
   left: 46px;
   top: 18vh;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__quppy:hover {
-  transform: translateX(-20px);
+  transform: translate3d(-20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-sticker__dance {
@@ -324,9 +328,10 @@ body {
   height: 26vh;
   right: 38px;
   top: 15vh;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__dance:hover {
-  transform: translateX(20px);
+  transform: translate3d(20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-sticker__dab {
@@ -339,9 +344,10 @@ body {
   left: -10px;
   top: 39vh;
   height: 20vh;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__dab:hover {
-  transform: translateX(-20px);
+  transform: translate3d(-20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-sticker__pizza {
@@ -354,9 +360,10 @@ body {
   right: -22px;
   top: 38vh;
   height: 20vh;
+  transform: translate3d(0, 0, 0);
 }
 #mobile .mobile-sticker__pizza:hover {
-  transform: translateX(20px);
+  transform: translate3d(20px, 0, 0);
   transition: 1s;
 }
 #mobile .mobile-download {
@@ -407,8 +414,7 @@ body {
 #footer .footer__copyright {
   font-family: "Gilroy-Extrabold";
   font-style: normal;
-  font-weight: 800;
-  font-size: 2vh;
+  font-size: 1.5vh;
   line-height: 17px;
   letter-spacing: 1.16667px;
   color: #FFFFFF;

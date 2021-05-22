@@ -224,6 +224,7 @@ body {
             height: 64vh;
             padding-top: 20px;
             bottom: 0px;
+            transition: none;
         }
 
         &-sticker {
@@ -292,10 +293,11 @@ body {
                 animation-delay: 1200ms;
                 transition: 1s;
                 top: 12px;
+                transform: translate3d(0,0,0);
             }
 
             &__migel:hover {
-                transform: translateX(-20px);
+                transform: translate3d(-20px,0,0);
                 transition: 1s;
             }
 
@@ -307,10 +309,11 @@ body {
                 transition: 1s;
                 height: 20vh;
                 top: 2px;
+                transform: translate3d(0,0,0);
             }
 
             &__mta:hover {
-                transform: translateX(20px);
+                transform: translate3d(20px,0,0);
                 transition: 1s;
             }
 
@@ -322,10 +325,11 @@ body {
                 height: 22vh;
                 left: 46px;
                 top: 18vh;
+                transform: translate3d(0,0,0);
             }
 
             &__quppy:hover {
-                transform: translateX(-20px);
+                transform: translate3d(-20px,0,0);
                 transition: 1s;
             }
 
@@ -337,10 +341,11 @@ body {
                 height: 26vh;
                 right: 38px;
                 top: 15vh;
+                transform: translate3d(0,0,0);
             }
 
             &__dance:hover {
-                transform: translateX(20px);
+                transform: translate3d(20px,0,0);
                 transition: 1s;
             }
 
@@ -352,10 +357,11 @@ body {
                 left: -10px;
                 top: 39vh;
                 height: 20vh;
+                transform: translate3d(0,0,0);
             }
 
             &__dab:hover {
-                transform: translateX(-20px);
+                transform: translate3d(-20px,0,0);
                 transition: 1s;
             }
 
@@ -367,10 +373,11 @@ body {
                 right: -22px;
                 top: 38vh;
                 height: 20vh;
+                transform: translate3d(0,0,0);
             }
 
             &__pizza:hover {
-                transform: translateX(20px);
+                transform: translate3d(20px,0,0);
                 transition: 1s;
             }
         }
@@ -436,8 +443,8 @@ body {
         &__copyright {
             font-family: "Gilroy-Extrabold";
             font-style: normal;
-            font-weight: 800;
-            font-size: 2vh;
+            // font-weight: 800;
+            font-size: 1.5vh;
             line-height: 17px;
             letter-spacing: 1.16667px;
             color: #FFFFFF;
