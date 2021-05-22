@@ -28,6 +28,10 @@
   #header .header__wrapper img {
     margin-left: 38%;
   }
+
+  #footer .footer__link a {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 992px) {
   body {
@@ -50,6 +54,18 @@
     font-size: 36px;
   }
 
+  #social-mobile {
+    display: block;
+    margin: 20px 0;
+  }
+  #social-mobile .container {
+    display: flex;
+    justify-content: center;
+  }
+  #social-mobile a {
+    margin: 0 13px;
+  }
+
   #mobile .mobile-download__appstore, #mobile .mobile-download__google {
     width: 60%;
   }
@@ -62,8 +78,14 @@
     width: 100%;
   }
 
-  #footer .footer__link img {
-    width: 26px;
+  #footer {
+    bottom: 20px;
+  }
+  #footer .footer__copyright {
+    width: 100%;
+  }
+  #footer .footer__link {
+    display: none;
   }
 }
 @media (max-width: 820px) {
@@ -155,6 +177,10 @@
     text-align: left;
   }
 
+  #social-mobile {
+    margin: 30px 0;
+  }
+
   #mobile {
     position: static;
   }
@@ -216,18 +242,6 @@
   }
   #mobile .mobile-download a:first-child {
     margin-bottom: 0;
-  }
-
-  #social-mobile {
-    display: block;
-    margin: 30px 0;
-  }
-  #social-mobile .container {
-    display: flex;
-    justify-content: center;
-  }
-  #social-mobile a {
-    margin: 0 13px;
   }
 
   #footer {
