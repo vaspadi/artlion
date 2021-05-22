@@ -44,7 +44,7 @@ main {
   display: flex;
   position: relative;
   top: -20px;
-  right: 26px;
+  right: 40px;
   align-items: flex-start;
   height: 301px;
 }
@@ -86,7 +86,7 @@ main {
 #main .main-link {
   display: flex;
   justify-content: space-between;
-  padding: 0 26px;
+  padding: 0 40px;
 }
 #main .main-link-block {
   display: flex;
