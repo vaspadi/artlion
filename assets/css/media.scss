@@ -173,7 +173,7 @@
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 820px) {
     body {
       position: relative;
       overflow: auto;
@@ -330,6 +330,30 @@
     }
 }
 
+@media (max-width: 820px) and (orientation: landscape) {
+    #mobile {
+        .mobile {
+            &-sticker {
+                &__migel {
+                    height: 20vw;
+                }
+
+                &__mta {
+                    height: 20vw;
+                }
+
+                &__quppy {
+                    height: 22vw;
+                }
+
+                &__dance {
+                    height: 26vw;
+                }
+            }
+        }
+    }
+}
+
 @media(max-width: 600px) {
     #mobile {
 
@@ -394,8 +418,12 @@
 
     #mobile {
         .mobile {
+            &__phone {
+                max-width: 80%;
+            }
+
             &-sticker {
-                width: 48vh;
+                width: 100%;
             }
         }
     }

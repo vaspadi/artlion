@@ -105,7 +105,7 @@
     width: 26px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   body {
     position: relative;
     overflow: auto;
@@ -221,6 +221,20 @@
     font-size: 14px;
   }
 }
+@media (max-width: 820px) and (orientation: landscape) {
+  #mobile .mobile-sticker__migel {
+    height: 20vw;
+  }
+  #mobile .mobile-sticker__mta {
+    height: 20vw;
+  }
+  #mobile .mobile-sticker__quppy {
+    height: 22vw;
+  }
+  #mobile .mobile-sticker__dance {
+    height: 26vw;
+  }
+}
 @media (max-width: 600px) {
   #mobile .mobile-sticker__migel {
     height: 100px;
@@ -261,8 +275,11 @@
     margin-top: 20px;
   }
 
+  #mobile .mobile__phone {
+    max-width: 80%;
+  }
   #mobile .mobile-sticker {
-    width: 48vh;
+    width: 100%;
   }
 
   #footer .footer__copyright {
