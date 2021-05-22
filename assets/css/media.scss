@@ -30,64 +30,67 @@
     }
 
     .bg {
+        width: 120%;
         &-left {
-            img {
-                width: 9vh;
-            }
+          // width: 40%;
+    //         img {
+    //             width: 9vh;
+    //         }
 
-            img:nth-child(1) {
-                left: 112px;
-            }
+    //         img:nth-child(1) {
+    //             left: 112px;
+    //         }
 
-            img:nth-child(2) {
-                left: 252px;
-            }
+    //         img:nth-child(2) {
+    //             left: 252px;
+    //         }
 
-            img:nth-child(3) {
-                left: 142px;
-            }
+    //         img:nth-child(3) {
+    //             left: 142px;
+    //         }
 
-            img:nth-child(4) {
-                left: 310px;
-            }
+    //         img:nth-child(4) {
+    //             left: 310px;
+    //         }
 
-            img:nth-child(5) {
-                left: 192px;
-            }
+    //         img:nth-child(5) {
+    //             left: 192px;
+    //         }
 
-            img:nth-child(6) {
-                left: 124px;
-            }
+    //         img:nth-child(6) {
+    //             left: 124px;
+    //         }
         }
 
         &-right {
-            img {
-                width: 9vh;
-            }
+            // width: 40%;
+    //         img {
+    //             width: 9vh;
+    //         }
 
-            img:nth-child(1) {
-                right: 48px;
-            }
+    //         img:nth-child(1) {
+    //             right: 48px;
+    //         }
 
-            img:nth-child(2) {
-                right: 252px;
-            }
+    //         img:nth-child(2) {
+    //             right: 252px;
+    //         }
 
-            img:nth-child(3) {
-                right: 130px;
-            }
+    //         img:nth-child(3) {
+    //             right: 130px;
+    //         }
 
-            img:nth-child(4) {
-                right: 300px;
-            }
+    //         img:nth-child(4) {
+    //             right: 300px;
+    //         }
 
-            img:nth-child(5) {
-                right: 250px;
-            }
+    //         img:nth-child(5) {
+    //             right: 250px;
+    //         }
 
-            img:nth-child(6) {
-                right: 100px;
-            }
+    //         img:nth-child(6) {
+    //             right: 100px;
+    //         }
         }
     }
 }
@@ -180,7 +183,84 @@
     }
 
     .bg {
-      height: 60%;
+        width: 100%;
+        height: 70%;
+
+        &-left {
+            img:nth-child(1) {
+                // left: 26%;
+                // bottom: 70vh;
+                width: 7vh;
+            }
+
+            img:nth-child(2) {
+                // left: 48%;
+                // bottom: 61vh;
+                width: 9vh;
+            }
+
+            img:nth-child(3) {
+                // bottom: 48vh;
+                // left: 31%;
+                width: 9vh;
+            }
+
+            img:nth-child(4) {
+                // bottom: 34vh;
+                // left: 56%;
+                width: 7vh;
+            }
+
+            img:nth-child(5) {
+                // bottom: 28vh;
+                // left: 36%;
+                width: 9vh;
+            }
+
+            img:nth-child(6) {
+                // bottom: 15vh;
+                // left: 28%;
+                width: 8vh;
+            }
+        }
+
+        &-right {
+            img:nth-child(1) {
+                // right: 20%;
+                // bottom: 67vh;
+                width: 7vh;
+            }
+
+            img:nth-child(2) {
+                // right: 45%;
+                // bottom: 55vh;
+                width: 7vh;
+            }
+
+            img:nth-child(3) {
+                // right: 28%;
+                // bottom: 41vh;
+                width: 9vh;
+            }
+
+            img:nth-child(4) {
+                // right: 53%;
+                // bottom: 38vh;
+                width: 7vh;
+            }
+
+            img:nth-child(5) {
+                // right: 45%;
+                // bottom: 19vh;
+                width: 9vh;
+            }
+
+            img:nth-child(6) {
+                // right: 23%;
+                // bottom: 14vh;
+                width: 9vh;
+            }
+        }
     }
 
     .container {
