@@ -43,28 +43,28 @@ body {
 }
 .bg-left img:nth-child(1) {
   left: 26%;
-  bottom: 70vh;
+  bottom: 70%;
   width: 9vh;
 }
 .bg-left img:nth-child(2) {
   left: 48%;
-  bottom: 61vh;
+  bottom: 61%;
 }
 .bg-left img:nth-child(3) {
-  bottom: 48vh;
+  bottom: 48%;
   left: 31%;
 }
 .bg-left img:nth-child(4) {
-  bottom: 34vh;
+  bottom: 34%;
   left: 56%;
   width: 7vh;
 }
 .bg-left img:nth-child(5) {
-  bottom: 28vh;
+  bottom: 28%;
   left: 36%;
 }
 .bg-left img:nth-child(6) {
-  bottom: 15vh;
+  bottom: 15%;
   left: 28%;
   width: 8vh;
 }
@@ -80,30 +80,30 @@ body {
 }
 .bg-right img:nth-child(1) {
   right: 20%;
-  bottom: 67vh;
+  bottom: 67%;
   width: 9vh;
 }
 .bg-right img:nth-child(2) {
   right: 45%;
-  bottom: 55vh;
+  bottom: 55%;
   width: 9vh;
 }
 .bg-right img:nth-child(3) {
   right: 28%;
-  bottom: 41vh;
+  bottom: 41%;
 }
 .bg-right img:nth-child(4) {
   right: 53%;
-  bottom: 38vh;
+  bottom: 38%;
   width: 7vh;
 }
 .bg-right img:nth-child(5) {
   right: 45%;
-  bottom: 19vh;
+  bottom: 19%;
 }
 .bg-right img:nth-child(6) {
   right: 23%;
-  bottom: 14vh;
+  bottom: 14%;
 }
 
 .container {
@@ -180,7 +180,6 @@ body {
   height: 64vh;
   padding-top: 20px;
   bottom: 0px;
-  transition: none;
 }
 #mobile .mobile-sticker {
   position: absolute;
