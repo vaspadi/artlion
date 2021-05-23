@@ -205,6 +205,17 @@ body {
 
 #social-mobile {
     display: none;
+
+    .social-mobile__wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      width: 100%;
+      
+      a {
+        margin: 0;
+      }
+    }
 }
 
 #mobile {
@@ -433,21 +444,21 @@ body {
 #footer {
     z-index: 3;
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     width: 100%;
 
     .footer {
         &__wrapper {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: flex-end;
         }
 
         &__copyright {
-            font-family: "Gilroy-Extrabold";
+            font-family: "Gilroy-Medium";
             font-style: normal;
             // font-weight: 800;
-            font-size: 1.5vh;
+            font-size: 14px;
             line-height: 17px;
             letter-spacing: 1.16667px;
             color: #FFFFFF;
@@ -458,7 +469,7 @@ body {
         &__link {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: flex-end;
             width: 16%;
 
             a {
