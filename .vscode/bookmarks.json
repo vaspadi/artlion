@@ -19,6 +19,36 @@
 					"label": ""
 				}
 			]
+		},
+		{
+			"path": "assets/css/media-for-migel.scss",
+			"bookmarks": [
+				{
+					"line": 131,
+					"column": 10,
+					"label": ""
+				},
+				{
+					"line": 280,
+					"column": 10,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "assets/css/main-for-migel.scss",
+			"bookmarks": [
+				{
+					"line": 58,
+					"column": 15,
+					"label": ""
+				},
+				{
+					"line": 176,
+					"column": 25,
+					"label": ""
+				}
+			]
 		}
 	]
 }
