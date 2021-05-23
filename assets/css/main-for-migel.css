@@ -217,10 +217,6 @@ main {
   margin-left: 0;
 }
 #footer .footer__link a:hover {
-  position: relative;
-  top: -8px;
+  transform: translateY(-8px);
   transition: 0.6s;
-}
-#footer .footer__img {
-  filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.3));
 }/*# sourceMappingURL=main-for-migel.css.map */

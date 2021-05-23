@@ -270,15 +270,13 @@ main {
             }
 
             a:hover {
-                // transform: translateY(-8px);
-                position: relative;
-                top: -8px;
+                transform: translateY(-8px);
                 transition: .6s;
             }
         }
 
-        &__img {
-          filter: drop-shadow(0 4px 3px rgba(0,0,0,0.3))
-        }
+        // &__img {
+        //   filter: drop-shadow(0 4px 3px rgba(0,0,0,0.3))
+        // }
     }
 }

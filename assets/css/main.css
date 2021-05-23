@@ -389,6 +389,7 @@ body {
   margin-bottom: 37px;
 }
 #mobile .mobile-download__appstore, #mobile .mobile-download__google {
+  max-width: 210px;
   transition: 1s;
 }
 #mobile .mobile-download__appstore:hover {
