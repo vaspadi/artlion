@@ -143,21 +143,24 @@ body {
   color: #BE353C !important;
 }
 
-#title h1 {
+#title h1, #title h2 {
   font-family: "HelveticaNeueBoldCondensed";
-  font-size: 12vh;
   color: #FFFFFF;
   text-transform: uppercase;
   margin: 0;
   text-align: center;
 }
-#title h2 {
-  font-family: "HelveticaNeueBoldCondensed";
+#title .title__h1 {
+  font-size: 12vh;
+}
+#title .title__h1_size {
+  font-size: 11vh;
+}
+#title .title__h2 {
   font-size: 7vh;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  margin: 0;
-  text-align: center;
+}
+#title .title__h2_size {
+  font-size: 6vh;
 }
 
 #social-mobile {
