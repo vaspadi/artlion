@@ -356,7 +356,13 @@
                     margin-bottom: 0;
                 }
 
+                &__appstore:hover {
+                  transform: none;
+                }
 
+                &__google:hover {
+                  transform: none;
+                }
             }
         }
     }

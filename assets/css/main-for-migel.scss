@@ -46,11 +46,12 @@ main {
 
     .main {
         &__wrapper {
+            position: relative;
             background: #FFFFFF;
             border-radius: 50px;
             width: 70%;
             padding-bottom: 25px;
-            position: relative;
+            margin-left: 40px;
             // top: 20px;
 
         }
@@ -145,9 +146,18 @@ main {
                 a {
                     margin-right: 40px;
 
+                    &:last-child {
+                      margin-right: 0;
+                    }
+
+                    img {
+                      transition: 1s;
+                    }
+
                     img:hover {
                         transform: scale(0.9);
-                        transition: 0.4s;
+                        transition-duration: 0.2s;
+                        transition: 1s;
                     }
                 }
             }
@@ -159,10 +169,15 @@ main {
             &__social {
                 display: flex;
                 align-items: flex-end;
+                // width: 20px;
 
                 a {
                     margin-left: 25px;
                     transition: .6s;
+                    
+                    img {
+                      width: 35px;
+                    }
                 }
 
                 a:hover {
@@ -242,7 +257,7 @@ main {
         &__link {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            align-items: flex-end;
 
             a {
                 margin-left: 20px;
@@ -255,7 +270,9 @@ main {
             }
 
             a:hover {
-                transform: translateY(-8px);
+                // transform: translateY(-8px);
+                position: relative;
+                top: -8px;
                 transition: .6s;
             }
         }

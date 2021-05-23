@@ -39,11 +39,12 @@ main {
   justify-content: center;
 }
 #main .main__wrapper {
+  position: relative;
   background: #FFFFFF;
   border-radius: 50px;
   width: 70%;
   padding-bottom: 25px;
-  position: relative;
+  margin-left: 40px;
 }
 #main .main-info {
   position: relative;
@@ -122,9 +123,16 @@ main {
 #main .main-link__button a {
   margin-right: 40px;
 }
+#main .main-link__button a:last-child {
+  margin-right: 0;
+}
+#main .main-link__button a img {
+  transition: 1s;
+}
 #main .main-link__button a img:hover {
   transform: scale(0.9);
-  transition: 0.4s;
+  transition-duration: 0.2s;
+  transition: 1s;
 }
 #main .main-link a {
   text-decoration: none;
@@ -136,6 +144,9 @@ main {
 #main .main-link__social a {
   margin-left: 25px;
   transition: 0.6s;
+}
+#main .main-link__social a img {
+  width: 35px;
 }
 #main .main-link__social a:hover {
   transform: translateY(-8px);
@@ -195,7 +206,7 @@ main {
 #footer .footer__link {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
 }
 #footer .footer__link a {
   margin-left: 20px;
@@ -206,7 +217,8 @@ main {
   margin-left: 0;
 }
 #footer .footer__link a:hover {
-  transform: translateY(-8px);
+  position: relative;
+  top: -8px;
   transition: 0.6s;
 }
 #footer .footer__img {

@@ -211,6 +211,7 @@ body {
       justify-content: space-around;
       align-items: flex-end;
       width: 100%;
+      max-width: 500px;
       
       a {
         margin: 0;
@@ -251,7 +252,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 100ms;
             }
 
@@ -260,7 +261,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 500ms;
             }
 
@@ -269,7 +270,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 1200ms;
             }
 
@@ -278,7 +279,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 1200ms;
             }
 
@@ -287,7 +288,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 1200ms;
             }
 
@@ -296,7 +297,7 @@ body {
                 animation-direction: alternate;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-                animation-duration: 1.5s;
+                animation-duration: 3s;
                 animation-delay: 500ms;
             }
 
@@ -504,21 +505,21 @@ body {
 
 @keyframes animate-stic-up {
     from {
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
 
     to {
-        transform: translateY(6px);
+        transform: translateY(5px);
     }
 }
 
 @keyframes animate-stic-down {
     from {
-        transform: translateY(6px);
+        transform: translateY(5px);
     }
 
     to {
 
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
 }

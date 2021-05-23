@@ -115,14 +115,6 @@
                         }
                     }
                 }
-
-                &__social {
-                    a {
-                        img {
-                            width: 5vh;
-                        }
-                    }
-                }
             }
         }
     }
@@ -150,7 +142,7 @@
     }
 
     #main {
-      margin-bottom: 200px;
+      margin-bottom: 210px;
       
         .main {
             &__wrapper {
@@ -158,6 +150,7 @@
                 padding-bottom: 50px;
                 border-radius: 50px 0px 0px 50px;
                 margin-right: -10%;
+                margin-left: 0;
                 // position: relative;
             }
 
@@ -230,7 +223,7 @@
                 }
 
                 &__button {
-                    bottom: -150px;
+                    bottom: -160px;
                     position: absolute;
                     right: 10%;
                     left: 0;
@@ -243,9 +236,16 @@
                         justify-content: center;
                         margin: 0;
 
+                        img {
+                          transition: none;
+
+                          &:hover {
+                            transform: none;
+                          }
+                        }
 
                         img {
-                            width: 80%;
+                            width: 100%;
                             margin: 0 10px;
                         }
                     }
@@ -297,6 +297,14 @@
 
             &__link {
                 margin: 25px 0;
+
+                a {
+                  transition: none;
+
+                  &:hover {
+                    position: static;
+                  }
+                }
             }
         }
     }

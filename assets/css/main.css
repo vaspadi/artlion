@@ -171,6 +171,7 @@ body {
   justify-content: space-around;
   align-items: flex-end;
   width: 100%;
+  max-width: 500px;
 }
 #social-mobile .social-mobile__wrapper a {
   margin: 0;
@@ -207,8 +208,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 100ms;
           animation-delay: 100ms;
 }
@@ -221,8 +222,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
 }
@@ -235,8 +236,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms;
 }
@@ -249,8 +250,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms;
 }
@@ -263,8 +264,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms;
 }
@@ -277,8 +278,8 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
 }
@@ -464,34 +465,34 @@ body {
 
 @-webkit-keyframes animate-stic-up {
   from {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
   to {
-    transform: translateY(6px);
+    transform: translateY(5px);
   }
 }
 
 @keyframes animate-stic-up {
   from {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
   to {
-    transform: translateY(6px);
+    transform: translateY(5px);
   }
 }
 @-webkit-keyframes animate-stic-down {
   from {
-    transform: translateY(6px);
+    transform: translateY(5px);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 }
 @keyframes animate-stic-down {
   from {
-    transform: translateY(6px);
+    transform: translateY(5px);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 }/*# sourceMappingURL=main.css.map */

@@ -250,6 +250,12 @@
   #mobile .mobile-download a:first-child {
     margin-bottom: 0;
   }
+  #mobile .mobile-download__appstore:hover {
+    transform: none;
+  }
+  #mobile .mobile-download__google:hover {
+    transform: none;
+  }
 
   #footer {
     bottom: 20px;
