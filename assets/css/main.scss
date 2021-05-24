@@ -471,13 +471,18 @@ body {
         &__link {
             display: flex;
             justify-content: flex-end;
-            align-items: flex-end;
+            align-items: stretch;
             width: 16%;
+            max-height: 27px;
 
             a {
                 margin-left: 20px;
                 text-decoration: none;
                 transition: .6s;
+
+                img {
+                  height: 100%;
+                }
             }
 
             a:hover {

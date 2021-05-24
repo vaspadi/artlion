@@ -206,7 +206,8 @@ main {
 #footer .footer__link {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: stretch;
+  max-height: 27px;
 }
 #footer .footer__link a {
   margin-left: 20px;
@@ -215,6 +216,9 @@ main {
 }
 #footer .footer__link a:first-child {
   margin-left: 0;
+}
+#footer .footer__link a img {
+  height: 100%;
 }
 #footer .footer__link a:hover {
   transform: translateY(-8px);

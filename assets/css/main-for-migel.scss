@@ -257,7 +257,8 @@ main {
         &__link {
             display: flex;
             justify-content: flex-end;
-            align-items: flex-end;
+            align-items: stretch;
+            max-height: 27px;
 
             a {
                 margin-left: 20px;
@@ -266,6 +267,10 @@ main {
 
                 &:first-child {
                   margin-left: 0;
+                }
+                
+                img {
+                  height: 100%;
                 }
             }
 
