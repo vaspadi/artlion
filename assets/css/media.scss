@@ -245,15 +245,20 @@
     }
 
     #header {
+        padding-top: 10px;
+
         .header {
             &__wrapper {
+              flex-direction: column-reverse;
+              align-items: center;
                 img {
                     margin: 0;
                 }
             }
 
             &__lang {
-                display: none;
+                margin-left: unset;
+                margin-bottom: 20px;
             }
         }
     }
@@ -500,10 +505,6 @@
         &-right {
             height: 70%;
         }
-    }
-
-    #header {
-        padding-top: 40px;
     }
 
     #title {

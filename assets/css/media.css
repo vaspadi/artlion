@@ -169,11 +169,19 @@
     padding: 0;
   }
 
+  #header {
+    padding-top: 10px;
+  }
+  #header .header__wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   #header .header__wrapper img {
     margin: 0;
   }
   #header .header__lang {
-    display: none;
+    margin-left: unset;
+    margin-bottom: 20px;
   }
 
   #title h1 {
@@ -341,10 +349,6 @@
 @media (max-width: 440px) {
   .bg-left, .bg-right {
     height: 70%;
-  }
-
-  #header {
-    padding-top: 40px;
   }
 
   #title .title__h1 {
