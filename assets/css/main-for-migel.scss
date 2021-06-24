@@ -200,6 +200,12 @@ main {
                 letter-spacing: 2px;
                 margin: 0;
             }
+
+            &__img-wrapper {
+              display: none;
+              justify-content: center;
+              padding-bottom: 25px;
+            }
         }
     }
 }

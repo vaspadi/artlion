@@ -156,12 +156,12 @@
     }
 
     #main {
-      margin-bottom: 210px;
+      margin-bottom: 70px;
       
         .main {
             &__wrapper {
                 width: 110%;
-                padding-bottom: 50px;
+                padding-bottom: 0;
                 border-radius: 50px 0px 0px 50px;
                 margin-right: -10%;
                 margin-left: 0;
@@ -219,53 +219,7 @@
                 margin-top: -10px;
 
                 &-block {
-                    flex-direction: column-reverse;
-
-                    &__symbol {
-                        position: absolute;
-                        left: 45%;
-                        bottom: -50px;
-                        width: 100px;
-                        transform: translateX(-50%);
-                    }
-
-                    &__download {
-                        padding-left: 25px;
-                        margin-bottom: 20px;
-                        margin-left: 0;
-                    }
-                }
-
-                &__button {
-                    bottom: -160px;
-                    position: absolute;
-                    right: 10%;
-                    left: 0;
-                    display: flex;
-                    justify-content: space-around;
-
-
-                    a {
-                        display: flex;
-                        justify-content: center;
-                        margin: 0 10px;
-
-                        img {
-                          transition: none;
-
-                          &:hover {
-                            transform: none;
-                          }
-                        }
-
-                        img {
-                            width: 100%;
-                        }
-                    }
-
-                    // a:first-child {
-                    //     margin-right: 40px;
-                    // }
+                    display: none;
                 }
 
                 &__social {
@@ -284,6 +238,10 @@
 
                 &__description {
                   display: inline-block;
+                }
+
+                &__img-wrapper {
+                  display: flex;
                 }
             }
         }
@@ -326,7 +284,7 @@
 
 @media(max-width: 450px) {
     #main {
-      margin-bottom: 180px;
+      margin-bottom: 40px;
 
       .main {
         &-info {

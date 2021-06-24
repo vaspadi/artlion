@@ -165,6 +165,11 @@ main {
   letter-spacing: 2px;
   margin: 0;
 }
+#main .main-link__img-wrapper {
+  display: none;
+  justify-content: center;
+  padding-bottom: 25px;
+}
 
 .qr .container {
   display: flex;

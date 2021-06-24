@@ -90,11 +90,11 @@
   }
 
   #main {
-    margin-bottom: 210px;
+    margin-bottom: 70px;
   }
   #main .main__wrapper {
     width: 110%;
-    padding-bottom: 50px;
+    padding-bottom: 0;
     border-radius: 50px 0px 0px 50px;
     margin-right: -10%;
     margin-left: 0;
@@ -129,41 +129,7 @@
     margin-top: -10px;
   }
   #main .main-link-block {
-    flex-direction: column-reverse;
-  }
-  #main .main-link-block__symbol {
-    position: absolute;
-    left: 45%;
-    bottom: -50px;
-    width: 100px;
-    transform: translateX(-50%);
-  }
-  #main .main-link-block__download {
-    padding-left: 25px;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-  #main .main-link__button {
-    bottom: -160px;
-    position: absolute;
-    right: 10%;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-  #main .main-link__button a {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-  }
-  #main .main-link__button a img {
-    transition: none;
-  }
-  #main .main-link__button a img:hover {
-    transform: none;
-  }
-  #main .main-link__button a img {
-    width: 100%;
+    display: none;
   }
   #main .main-link__social a {
     margin: 25px 25px 20px 0;
@@ -176,6 +142,9 @@
   }
   #main .main-link__description {
     display: inline-block;
+  }
+  #main .main-link__img-wrapper {
+    display: flex;
   }
 
   .qr {
@@ -206,7 +175,7 @@
 }
 @media (max-width: 450px) {
   #main {
-    margin-bottom: 180px;
+    margin-bottom: 40px;
   }
   #main .main-info {
     font-size: 18px;
